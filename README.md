@@ -3,3 +3,6 @@ Vibe-coded with Claude. Simply run `bash pro2steam.sh`, and then the controller 
 
 ## To do
 Make bottom buttons work.
+
+## Acknowledgments
+Thanks to ikz87 for his [Linux script](https://github.com/ikz87/NSW2-controller-enabler) that this is based off of

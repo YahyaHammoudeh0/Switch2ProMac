@@ -329,12 +329,5 @@ if [ $? -ne 0 ]; then
     echo "Continuing anyway..."
 fi
 
-# Step 4: Set SDL mapping and launch Steam
 echo ""
-echo "[4/4] Launching Steam..."
-
-export SDL_GAMECONTROLLERCONFIG="030000007e0500006920000001000000,Nintendo Switch 2 Pro Controller,a:b1,b:b0,x:b3,y:b2,back:b8,guide:b12,start:b9,leftstick:b10,rightstick:b11,leftshoulder:b4,rightshoulder:b5,dpup:h0.1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,leftx:a0,lefty:a1,rightx:a2,righty:a3,lefttrigger:b6,righttrigger:b7,paddle1:b18,paddle2:b19,platform:Mac OS X,"
-
-/Applications/Steam.app/Contents/MacOS/steam_osx >/dev/null 2>&1 &
-disown
-echo "Steam launched in background. You can close this terminal."
+echo "[4/4] Done. Controller is in HID mode — launch Steam yourself."
